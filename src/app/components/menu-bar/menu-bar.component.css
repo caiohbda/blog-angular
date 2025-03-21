@@ -1,0 +1,40 @@
+.container__menu-bar > ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  padding: 0;
+}
+
+.container__menu-bar > ul > li {
+  margin-right: 20px;
+  list-style: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  position: relative;
+  color: #333;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+/* Efeito de hover */
+.container__menu-bar > ul > li:hover {
+  color: #ff7e5f; /* Altere para a cor que deseja */
+  transform: translateY(-2px);
+}
+
+.container__menu-bar > ul > li:last-child {
+  margin-right: 0;
+}
+
+.container__menu-bar > ul > li > a {
+  text-decoration: none;
+  color: inherit; /* Herda a cor do li */
+  font-family: "Open Sans", sans-serif;
+  transition: color 0.3s ease;
+}
+
+/* Efeito de hover no link */
+.container__menu-bar > ul > li > a:hover {
+  color: #ff7e5f; /* Cor do link ao passar o mouse */
+  text-decoration: underline;
+}

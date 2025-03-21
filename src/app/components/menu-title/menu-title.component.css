@@ -1,0 +1,28 @@
+.container__menu-title {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.container__menu-title > h1 {
+  margin: 10px 0;
+  font-size: 100px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  background: linear-gradient(45deg, #ff7e5f, #feb47b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.container__menu-title > hr {
+  width: 80%;
+  height: 3px;
+  background: linear-gradient(90deg, #ff7e5f, #feb47b);
+  border: none;
+  margin: 15px auto;
+  border-radius: 10px;
+}
